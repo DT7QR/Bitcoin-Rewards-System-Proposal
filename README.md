@@ -106,6 +106,7 @@
    stakers with a vote cap to prevent corruption.
    
    Initial Framework: Early stakers define guidelines transitioning to a DAO.
+   
    Transparency: Decisions are logged for auditability.
    
    Adaptability: The DAO can adjust minimums, caps, and weights to reflect community needs 
@@ -135,6 +136,7 @@
    Off-Chain: hashed wallet IDs, timestamps, ERC-20/testnet totals
    
    On-Chain: A dApp enforces limits, nonces, and tracks staking/governance data
+   
    Reward Distribution: Manual BTC/LN payouts
    
    Setup Efficiency: Core components (hashing, nonces, limits) leverage trusted tools for 
@@ -161,8 +163,9 @@
    The DT7-QR Rewards System is a decentralized incentive layer that enhances Bitcoin’s role 
    as a transactional currency and community-driven network. By rewarding engagement, 
    facilitating BTC/LN transactions, and empowering peers through governance, it counters 
-   the institutionalization of Bitcoin while addressing regulatory challenges. This 
-   framework invites peers to reclaim Bitcoin’s original promise: a currency by and for the 
+   the institutionalization of Bitcoin while addressing regulatory challenges. 
+      
+   This framework invites peers to reclaim Bitcoin’s original promise: a currency by and for the 
    pepo.
    
 
