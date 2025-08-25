@@ -164,10 +164,13 @@
    the institutionalization of Bitcoin while addressing regulatory challenges. This 
    framework invites peers to reclaim Bitcoin’s original promise: a currency by and for the 
    pepo.
+   
 
-
-
-
+   /
+   /
+   /
+   
+   
 
 Technical Roadmap
 
@@ -177,14 +180,16 @@ Phase 2: Staking smart contract
 
 Phase 3: DAO voting
 
-
-
-
+   
+/
+/
+/
+      
 ## Call for Collaborators
 
 I'm looking for developers to help prototype this! 
-
-
+      
+      
 Skills needed: 
 Bitcoin/Lightning integration, QR code handling, smart contracts for staking/DAO. 
 
@@ -197,9 +202,9 @@ Built with Bitcoin Script/Lightning for payouts
 Ethereum/Solana for DAO governance
 
 Node.js for off-chain QR generation.
+   
 
-
-
+   
 Tech Stack Needed
 
 QR libraries like qrcode.js
@@ -207,14 +212,14 @@ QR libraries like qrcode.js
 multisig via BitcoinJS
 
 dApp on Web3.js
-
-
-
+      
+   
+   
 How to Contribute 
 
 Fork this repo, submit PRs for code prototypes
-
-
+   
+      
 
 
  ######  This is a community project—code contributions welcome!
