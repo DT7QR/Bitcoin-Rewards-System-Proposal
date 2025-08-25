@@ -127,6 +127,8 @@
 
 
 
+
+
 Technical Roadmap
 
 Phase 1: QR scanner prototype
@@ -136,14 +138,18 @@ Phase 2: Staking smart contract
 Phase 3: DAO voting
 
 
+
+
 ## Call for Collaborators
 
 I'm looking for developers to help prototype this! 
+
 
 Skills needed: 
 Bitcoin/Lightning integration, QR code handling, smart contracts for staking/DAO. 
 
 Open an Issue to discuss or fork to start coding.
+
 
 
 Built with Bitcoin Script/Lightning for payouts
@@ -153,6 +159,7 @@ Ethereum/Solana for DAO governance
 Node.js for off-chain QR generation.
 
 
+
 Tech Stack Needed
 
 QR libraries like qrcode.js
@@ -160,6 +167,7 @@ QR libraries like qrcode.js
 multisig via BitcoinJS
 
 dApp on Web3.js
+
 
 
 How to Contribute 
