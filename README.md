@@ -10,7 +10,7 @@
    code-based engagement, tiered staking, and governance, it incentivizes active 
    participation and peer-to-peer transactions while navigating regulatory realities. Built 
    for scalability and for payouts, the system distributes BTC rewards from a community 
-   treasury, empowering our community to move beyond institutional tools and assert control 
+   treasury, empowering community's to move beyond institutional tools and assert control 
    over their financial interactions.
 
                        1. Vision: Bitcoin as a Living Currency
@@ -32,12 +32,12 @@
    The system incentivizes engagement and transacting by rewarding peers for scanning QR 
    codes integrated into a livestream. 
    Key components include: 
-   QR Scans: QR codes earn stream tokens
+   QR Scans: QR codes earn ERC-20/testnet
    - a low-value unit for tracking participation.
    Reward Allocation: 30% of the daily treasury is distributed as BTC/LN rewards to 
-   eligible wallets based on proportion of tokens scanned.
+   eligible wallets based on proportion of ERC-20/testnet scanned.
    New Peer's Incentive: New participants (<1 week, no staking history) completing 
-   consecutive scans receive a one-time random stream token bonus to encourage onboarding.
+   consecutive scans receive a one-time random ERC-20/testnet bonus to encourage onboarding.
    Eligibility: Wallets must complete at least 2 scans/day to qualify for QR rewards, 
    ensuring active engagement.
    Rewards are distributed via BTC/LN to reinforce Bitcoin’s transactional utility.
@@ -60,7 +60,7 @@
 
                           4. Staking Rewards
    A separate staking system incentivizes long-term participation:
-   Tiered Structure: Higher tiers require more tokens staked over longer periods, 
+   Tiered Structure: Higher tiers require more ERC-20/testnet staked over longer periods, 
    offering increasing weekly BTC/LN rewards.
    No QR Dependency: Staking rewards are independent of QR scans, ensuring accessibility 
    for passive peers.
@@ -79,7 +79,7 @@
 
                         6. Governance: Community Control
    The system empowers peers through decentralized governance:
-   Voting Power: Determined by staking duration and tokens scanned, with weights favoring 
+   Voting Power: Determined by staking duration and ERC-20/testnet scanned, with weights favoring 
    stakers with a vote cap to prevent corruption.
    Initial Framework: Early stakers define guidelines transitioning to a DAO.
    Transparency: Decisions are logged for auditability.
@@ -92,7 +92,7 @@
    U.S. peers: Rewards are distributed via non-custodial LN wallets with minimal logs to 
    comply with IRS/SEC rules.
    Non-U.S. peers: Direct BTC/LN payouts
-   No Stablecoins: Avoiding securities exposure, with token’s low value serving as a 
+   No Stablecoins: Avoiding securities exposure, with ERC-20/testnet low value serving as a 
    compliance buffer.
    Manual Distribution: Human oversight of payouts
    By leveraging Bitcoin’s infrastructure, the system supports compliance without 
@@ -100,7 +100,7 @@
 
                         8. Technical Implementation
    The system combines off-chain and on-chain components for efficiency:
-   Off-Chain: hashed wallet IDs, timestamps, token totals
+   Off-Chain: hashed wallet IDs, timestamps, ERC-20/testnet totals
    On-Chain: A dApp enforces limits, nonces, and tracks staking/governance data
    Reward Distribution: Manual BTC/LN payouts
    Setup Efficiency: Core components (hashing, nonces, limits) leverage trusted tools for 
@@ -126,6 +126,16 @@
    pepo.
 
 
+Technical Roadmap
+Phase 1: QR scanner prototype
+Phase 2: Staking smart contract
+Phase 3: DAO voting
+
+## Call for Collaborators
+I'm looking for developers to help prototype this! 
+Skills needed: Bitcoin/Lightning integration, QR code handling, smart contracts for staking/DAO. 
+Open an Issue to discuss or fork to start coding.
+
 Built with Bitcoin Script/Lightning for payouts
 Ethereum/Solana for DAO governance
 Node.js for off-chain QR generation.
@@ -137,3 +147,7 @@ dApp on Web3.js
 
 How to Contribute 
 Fork this repo, submit PRs for code prototypes
+
+
+ ######  This is a community project—code contributions welcome!
+ 
